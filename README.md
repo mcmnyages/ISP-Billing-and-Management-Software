@@ -49,3 +49,38 @@ Things to consider when building the software
     •	Redundancy and high availability for critical components
     •	Monitoring and alerting mechanisms for system health
 
+## Usage
+
+To set up and run the ISP Billing and Management Software, follow these steps:
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (Node package manager)
+- A MongoDB or MySQL database (depending on your implementation)
+- An Mpesa developer account for API credentials
+
+### Setup Instructions
+
+1. **Clone the Repository:**
+   Clone the project repository to your local machine using:
+   ```bash
+   git clone https://github.com/mcmnyages/ISP-Billing-and-Management-Software.git
+2. **Navigate to the Project Directory: Change your working directory to the project folder:**
+   ```bash
+   cd ISP-Billing-and-Management-Software
+3. **Install Dependencies: Install the necessary Node.js dependencies:**
+   ```bash
+   npm install
+4. **Create Environment Variables: Create a .env file based on the .env.example file:**
+   ```bash
+   cp .env.example .env
+5. **Run the Development Server: Start the application using the following command:**
+   ```bash
+   npm run dev
+
+
+### Summary of Additions:
+- **Usage Section**: This provides clear instructions on setting up and running the project.
+- **Prerequisites**: Lists the necessary software and services needed to run the application.
+- **Setup Instructions**: Detailed step-by-step guidance on cloning the repository, installing dependencies, setting up environment variables, and running the application.
