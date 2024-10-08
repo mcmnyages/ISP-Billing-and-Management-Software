@@ -57,7 +57,7 @@ To set up and run the ISP Billing and Management Software, follow these steps:
 
 - Node.js (version 14 or higher)
 - npm (Node package manager)
-- A MongoDB or MySQL database (depending on your implementation)
+- A MongoDB or MySQL database
 - An Mpesa developer account for API credentials
 
 ### Setup Instructions
@@ -78,9 +78,3 @@ To set up and run the ISP Billing and Management Software, follow these steps:
 5. **Run the Development Server: Start the application using the following command:**
    ```bash
    npm run dev
-
-
-### Summary of Additions:
-- **Usage Section**: This provides clear instructions on setting up and running the project.
-- **Prerequisites**: Lists the necessary software and services needed to run the application.
-- **Setup Instructions**: Detailed step-by-step guidance on cloning the repository, installing dependencies, setting up environment variables, and running the application.
